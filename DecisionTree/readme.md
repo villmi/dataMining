@@ -14,7 +14,7 @@
 ### 没人看
 所以这东西就当个备忘吧
 首先以上列举的三个文件是一个递进关系:</br>
-DecisionTreeTool.py是面向离散数据的包含以上提及的ID3，C4.5以及CART算法，其算法名称分别为：</br>
+DecisionTreeTool.py是面向离散数据的包含以上提及的ID3，C4.5以及CART算法(Plus对这个文件进行了增补，可以使用ID3处理连续数据,这边可以用动态规划改进，暂时还没写)，其算法名称分别为：</br>
 buildDecisionTreeByGain()</br>
 buildDecisionTreeByGain_ratio()</br>
 buildDecisionTreeByCART()</br>
